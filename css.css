@@ -1,0 +1,88 @@
+@font-face{
+  font-weight: 400;
+  font-family: Texturina;
+  src: url(r_fonts/Texturina/Texturina-VariableFont_opsz\,wght.ttf) ;
+}*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Texturina;
+}
+
+body{
+    background-color: #012e40;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    
+
+}
+.container{
+    background-color: #038c8c ;
+    max-width: 400px;
+    width: 100%;
+    padding: 24px;
+    border-radius: 10px;    
+}
+p{
+    color: #012e40;
+}
+
+ul{
+    list-style-type: none;
+    padding-right: 40px;
+}
+
+.container ul li button{
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color:#038c5c ;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    transition: all 0.15 is in ease-in-out;
+}
+
+.container ul li button:hover{
+    background-color: #f28705;
+    color: #012e40;
+}
+.icon-square {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: block;
+    margin-inline: auto;
+    margin-bottom: 1.25rem;
+  }
+
+  .container h1{
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+  }
+  .location{
+    color: #f21909;
+    display: block;
+    font-size: 1rem;
+    text-align: center;
+  }
+  .container ul{
+    display: grid;
+    gap: 0.5rem;
+    margin-top: 2rem;
+  }
+  .job{
+    text-align: center;
+  }
+  
